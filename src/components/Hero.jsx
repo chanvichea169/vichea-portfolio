@@ -2,10 +2,10 @@ import React from "react";
 import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const handleDownloadCV = () => {
-  const cvUrl = "/images/cv.pdf";
+  const cvUrl = "/images/Chann_Vichea.pdf";
   const link = document.createElement("a");
   link.href = cvUrl;
-  link.download = "cv.pdf";
+  link.download = "Chann_Vichea_CV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
